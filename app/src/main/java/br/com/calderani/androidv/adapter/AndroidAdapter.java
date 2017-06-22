@@ -41,7 +41,7 @@ public class AndroidAdapter extends RecyclerView.Adapter<AndroidAdapter.AndroidV
         Picasso.with(holder.itemView.getContext())
                 .load(a.getUrlImagem())
                 .placeholder(R.drawable.ic_loading)  // IMG de Loading
-                .error(R.mipmap.ic_launcher)        // IMG de Erro
+                .error(R.drawable.ic_error)        // IMG de Erro
                 .into(holder.ivLogo);
     }
 
